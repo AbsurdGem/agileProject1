@@ -4,7 +4,8 @@
 int menu(void) {
     int option;
 
-    system("clear||cls"); // Clears the screen (compatible with Windows & Unix)
+       // Clear screen
+    printf("\033[2J\033[H");
     printf("===== MENU =====\n");
     printf("1. Write to File\n");
     printf("2. Read from File\n");
