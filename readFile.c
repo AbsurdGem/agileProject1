@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "readFile.h"
 
 void readFile(void) {
     FILE *file = fopen("output.txt", "r");
@@ -16,4 +17,3 @@ void readFile(void) {
     fclose(file);
     printf("\n");
 }
-
