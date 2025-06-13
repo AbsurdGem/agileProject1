@@ -1,11 +1,12 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include "menu.h"
 
 int menu(void) {
     int option;
 
-       // Clear screen
+    // ANSI escape code to clear screen
     printf("\033[2J\033[H");
+
     printf("===== MENU =====\n");
     printf("1. Write to File\n");
     printf("2. Read from File\n");
@@ -17,4 +18,3 @@ int menu(void) {
 
     return option;
 }
-
