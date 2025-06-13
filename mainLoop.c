@@ -1,5 +1,8 @@
 #include <stdio.h>
-#include "functions.h"
+#include "mainLoop.h"
+#include "writeFile.h"
+#include "readFile.h"
+#include "calculations.h"
 
 void mainLoop(int option) {
     int a, b;
@@ -28,4 +31,3 @@ void mainLoop(int option) {
             printf("Invalid option. Please try again.\n");
     }
 }
-
