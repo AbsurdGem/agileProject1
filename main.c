@@ -1,6 +1,7 @@
-#include <stdio.h>
+
 #include <stdlib.h>
-#include "functions.h"
+#include "menu.h"
+#include "mainLoop.h"
 
 int main(void) {
     int option;
@@ -12,4 +13,3 @@ int main(void) {
 
     return 0;
 }
-
