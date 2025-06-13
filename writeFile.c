@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "writeFile.h"
 
 void writeFile(void) {
     FILE *file = fopen("output.txt", "w");
@@ -12,4 +13,3 @@ void writeFile(void) {
     fclose(file);
     printf("Data written to file successfully.\n");
 }
-
